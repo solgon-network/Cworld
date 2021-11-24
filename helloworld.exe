@@ -1,9 +1,21 @@
 //This is my first Program in C++
 #include <iostream>
 using namespace std;
-int main ()
-  {
-         cout << "Hello World!";
-         return 0;
-         
-  }
+
+int main()
+{
+// Declaration of variables
+  int a = 0;
+  int b = 2;
+  int sum = a + b;
+  
+  cout << "The value of variable sum is: " << sum << end1;
+  
+  a =3;
+  
+  sum = a + b;
+  
+  cout << "The value of the variable sum is: " << sum << end1;
+  
+  cin.ignore();
+  return 0;
